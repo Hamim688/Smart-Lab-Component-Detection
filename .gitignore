@@ -1,0 +1,24 @@
+# Abaikan folder environment python
+venv/
+env/
+.env
+
+# Abaikan file cache sampah
+__pycache__/
+*.pyc
+
+# PENTING: Abaikan Dataset (karena size bergiga-giga)
+# Ganti 'nama_folder_dataset' dengan nama folder asli lu
+dataset/
+datasets/
+train/
+valid/
+test/
+
+# Abaikan hasil training yang gagal/junk (folder runs yolo)
+runs/
+
+# Abaikan file model yang gede banget (kalau >100MB gak bakal bisa diupload)
+# Cukup upload 'best.pt' nanti secara manual atau pakai Git LFS kalau perlu
+*.pt
+!best.pt  # Tanda seru artinya: KECUALI file best.pt (ini boleh diupload)
