@@ -1,0 +1,20 @@
+names:
+- Arduino
+- Breadboard
+- ESP32
+- Integrated Circuits
+- Kapasitor
+- LED
+- Resistor
+- Transistor
+- Ultrasonic Sensor
+nc: 9
+roboflow:
+  license: CC BY 4.0
+  project: deteksi_komponen_lengkap
+  url: https://universe.roboflow.com/hamim-ixooj/deteksi_komponen_lengkap/dataset/2
+  version: 2
+  workspace: hamim-ixooj
+test: ../test/images
+train: ../train/images
+val: ../valid/images

@@ -5,7 +5,7 @@ import cv2
 # GANTI path di bawah ini dengan lokasi 'best.pt' lu yang asli!
 # Tips: Klik kanan file best.pt di folder runs -> Copy Relative Path -> Paste sini
 # Contoh: 'runs/detect/model_komponen_v1/weights/best.pt'
-model_path = 'runs/detect/model_komponen_v13/weights/best.pt'
+model_path = 'runs/detect/model_perfect_v1/weights/best.pt'
 
 print(f"Sedang memuat model dari: {model_path}")
 model = YOLO(model_path)
@@ -13,7 +13,7 @@ model = YOLO(model_path)
 # --- BUKA WEBCAM ---
 # Angka 0 biasanya webcam laptop bawaan.
 # Kalau lu pake webcam eksternal/USB, coba ganti jadi 1.
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Cek webcam
 if not cap.isOpened():
