@@ -11,14 +11,14 @@ if __name__ == '__main__':
     
     # JANGAN LUPA: Pastikan nama folder datasetnya bener (sesuai yang tadi)
     results = model.train(
-        data='Deteksi_Komponen_Lengkap-2/data.yaml', 
+        data='Deteksi_Komponen_Lengkap-3/data.yaml', 
         epochs=100, 
         patience=20,
-        imgsz=640, 
+        imgsz=1280, 
         device=0, 
-        batch=16, 
-        name='model_perfect_v1',
-        workers=4 
+        batch=4, 
+        name='model_sempurna_v1',
+        workers=0 
     )
     
     print("✅ Training Selesai!")

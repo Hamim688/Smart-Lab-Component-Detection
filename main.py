@@ -5,7 +5,7 @@ import cv2
 # GANTI path di bawah ini dengan lokasi 'best.pt' lu yang asli!
 # Tips: Klik kanan file best.pt di folder runs -> Copy Relative Path -> Paste sini
 # Contoh: 'runs/detect/model_komponen_v1/weights/best.pt'
-model_path = 'runs/detect/model_perfect_v1/weights/best.pt'
+model_path = 'runs/detect/model_sempurna_v1/weights/best.pt'
 
 print(f"Sedang memuat model dari: {model_path}")
 model = YOLO(model_path)
