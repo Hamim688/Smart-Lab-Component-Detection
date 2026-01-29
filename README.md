@@ -20,7 +20,7 @@ Sistem ini menggunakan *Computer Vision* untuk mendeteksi komponen elektronika (
 
 ## 📂 Dataset
 Dataset yang digunakan merupakan gabungan dari beberapa sumber mikrokontroller.
-Link Dataset: [Tempel Link Roboflow Lu Disini]
+Link Dataset: https://app.roboflow.com/hamim-ixooj/deteksi_komponen_lengkap/models
 
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
